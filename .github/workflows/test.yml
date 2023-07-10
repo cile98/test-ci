@@ -10,10 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: sqllite
-      run: |
-        wget <link to db file>
-        mkdir     
     - name: Set up Python 3.9.12
       uses: actions/setup-python@v3
       with:
